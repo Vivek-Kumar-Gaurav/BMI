@@ -1,58 +1,119 @@
-body{
-    background: url("https://wallpapers.com/images/featured/q7habo5f4c57a62u.jpg");
+body {
+    background-color: aquamarine;
+    background: url("https://images4.alphacoders.com/921/921616.jpg") no-repeat center center fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-  }
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
 .container {
-    width: 575px;
+    max-width: 550px;
+    width: 90%;
     min-height: 600px;
-    margin: 0% auto;
-    background-color: rgba(150, 150, 150, .8);
-    padding-left: 30px;
-    border-radius: 50px;
-  }
-  #height,
-  #weight {
-    width: 150px;
-    height: 25px;
-    margin-top: 30px;
-  }
-  
-  #weight-guide {
-    margin-left: 75px;
-    margin-top: 25px;
-  }
-  
-  #results {
-    font-size: 35px;
-    margin-left: 90px;
+    margin: 5% auto;
+    background-color: rgba(36, 35, 35, 0.2);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid grey;
+}
+
+/* Transparent Input Fields */
+#height,
+#weight {
+    width: 90%;
+    max-width: 250px;
+    height: 40px;
     margin-top: 20px;
-    color: rgb(241, 241, 241);
-  }
-  #person {
-    font-size: 35px;
-    margin-left: 90px;
-    margin-top: 20px;
-    color: rgb(16, 99, 233);
-  }
-  
-  button {
-    width: 150px;
-    height: 35px;
-    margin-left: 90px;
-    margin-top: 25px;
-    background-color: #fff;
-    padding: 1px 30px;
+    font-size: 18px;
+    padding: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.6); /* Soft white border */
     border-radius: 8px;
-    color: #212121;
+    text-align: center;
+    background: transparent;
+    color: #fff;
+    outline: none;
+}
+
+/* Placeholder Styling */
+#height::placeholder,
+#weight::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* White but slightly transparent */
+}
+
+/* Focus Effect */
+#height:focus,
+#weight:focus {
+    border-color: #ff914d;
+    box-shadow: 0 0 10px rgba(255, 145, 77, 0.8);
+}
+
+/* Weight Guide */
+#weight-guide {
+    margin-top: 20px;
+}
+
+/* Results */
+#results, #person {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#person {
+    color: rgb(16, 99, 233);
+}
+
+/* Styled Calculate Button */
+button {
+    width: 90%;
+    max-width: 200px;
+    height: 45px;
+    margin-top: 20px;
+    background: linear-gradient(45deg, #ff5733, #ff914d); /* Modern gradient */
+    border-radius: 8px;
+    color: #fff;
     text-decoration: none;
-    border: 2px solid #212121;
-  
-    font-size: 25px;
-  }
-  
-  h1 {
-    padding-left: 15px;
-    padding-top: 25px;
-    
-  }
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Hover Effect */
+button:hover {
+    background: linear-gradient(45deg, #e64a19, #ff5722);
+}
+
+h1 {
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    #height,
+    #weight {
+        width: 95%;
+        max-width: none;
+    }
+
+    button {
+        width: 95%;
+    }
+
+    #results,
+    #person {
+        font-size: 25px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
