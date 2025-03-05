@@ -1,7 +1,12 @@
+body{
+    background: url("https://wallpapers.com/images/featured/q7habo5f4c57a62u.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 .container {
     width: 575px;
-    height: 825px;
-  
+    min-height: 600px;
+    margin: 0% auto;
     background-color: #1bea36;
     padding-left: 30px;
   }
