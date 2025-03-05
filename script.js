@@ -26,10 +26,10 @@ form.addEventListener('submit', function (e) {
     // alert(bmi)
 
     if (bmi>=24.9){
-      person.innerHTML = `<span>Your are Over Weight!! <br> Please do Exercise...</span>`;
+      person.innerHTML = `<span>Your are Over Weight!!</span>`;
     }
     else if (bmi<=18.6){
-      person.innerHTML = `<span>Your are Under Weight!! <br> Please take good diet...</span>`;
+      person.innerHTML = `<span>Your are Under Weight!!</span>`;
     }
   
     else{
