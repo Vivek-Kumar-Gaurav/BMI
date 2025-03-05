@@ -7,8 +7,9 @@ body{
     width: 575px;
     min-height: 600px;
     margin: 0% auto;
-    background-color: #1bea36;
+    background-color: rgba(150, 150, 150, .8);
     padding-left: 30px;
+    border-radius: 50px;
   }
   #height,
   #weight {
