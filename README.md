@@ -17,9 +17,4 @@ The design features a **modern UI**, **transparent input fields**, and a **dynam
 - CSS3 (Flexbox, Media Queries, Transitions)
 - JavaScript (BMI Calculation Logic)
 
-## 🚀 Getting Started
-
-### **1️⃣ Clone the Repository**
-```sh
-git clone https://github.com/your-username/bmi-calculator.git
-cd bmi-calculator
+ 
