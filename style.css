@@ -1,17 +1,17 @@
 body {
     background-color: aquamarine;
-    background: url("https://images4.alphacoders.com/921/921616.jpg") no-repeat center center fixed;
+    background: url("https://cdn.nimbusthemes.com/2017/09/09233341/Free-Nature-Backgrounds-Seaport-During-Daytime-by-Pexels.jpeg ") no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
 .container {
-    max-width: 550px;
+    max-width: 500px;
     width: 90%;
-    min-height: 600px;
+    min-height: 500px;
     margin: 5% auto;
-    background-color: rgba(36, 35, 35, 0.2);
+    background-color: rgba(36, 35, 35, 0.7 );
     color: white;
     padding: 20px;
     border-radius: 20px;
@@ -67,7 +67,7 @@ button {
     max-width: 200px;
     height: 45px;
     margin-top: 20px;
-    background: linear-gradient(45deg, #ff5733, #ff914d); /* Modern gradient */
+    background: linear-gradient(45deg, #ff5733, #ff914d);  
     border-radius: 8px;
     color: #fff;
     text-decoration: none;
@@ -84,7 +84,7 @@ button:hover {
 }
 
 h1 {
-    padding-top: 20px;
+    padding-top: 10px;
     font-size: 24px;
 }
 
