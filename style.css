@@ -7,9 +7,9 @@ body {
 }
 
 .container {
-    max-width: 500px;
+    max-width: 550px;
     width: 90%;
-    min-height: 500px;
+    min-height: 600px;
     margin: 5% auto;
     background-color: rgba(36, 35, 35, 0.7 );
     color: white;
@@ -84,7 +84,7 @@ button:hover {
 }
 
 h1 {
-    padding-top: 10px;
+    padding-top: 15px;
     font-size: 24px;
 }
 
